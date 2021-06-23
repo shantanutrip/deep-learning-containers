@@ -8,15 +8,15 @@ client = boto3.client('ecr', region_name = 'us-west-2')
 ecr_images = [
     {
         "repositoryName": "pr-pytorch-training",
-        "imageTag": "1.8.1-cpu-py36-ubuntu18.04-pr-1177-2021-06-23-02-22-32"
+        "imageTag": "1.8.1-gpu-py36-cu111-ubuntu18.04-pr-1177-2021-06-23-18-24-35"
     },
     {
         "repositoryName": "pr-tensorflow-training",
-        "imageTag": "2.4.1-cpu-py37-ubuntu18.04-pr-1177-2021-06-23-02-22-38"
+        "imageTag": "2.4.1-gpu-py37-cu110-ubuntu18.04-pr-1177-2021-06-23-18-24-42"
     },
     {
         "repositoryName": "pr-mxnet-training",
-        "imageTag": "1.8.0-cpu-py37-ubuntu16.04-pr-1177-2021-06-23-02-22-31"
+        "imageTag": "1.8.0-gpu-py37-cu110-ubuntu16.04-pr-1177-2021-06-23-18-24-56"
     }
 ]
 
