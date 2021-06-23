@@ -1,0 +1,610 @@
+{
+    "apparmor": [
+        {
+            "name": "CVE-2016-1585",
+            "description": "In all versions of AppArmor mount rules are accidentally widened when compiled.",
+            "uri": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-1585",
+            "severity": "MEDIUM",
+            "attributes": [
+                {
+                    "key": "package_version",
+                    "value": "2.10.95-0ubuntu2.11"
+                },
+                {
+                    "key": "package_name",
+                    "value": "apparmor"
+                },
+                {
+                    "key": "CVSS2_VECTOR",
+                    "value": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+                },
+                {
+                    "key": "CVSS2_SCORE",
+                    "value": "7.5"
+                }
+            ]
+        }
+    ],
+    "avahi": [
+        {
+            "name": "CVE-2021-3468",
+            "description": "Local DoS by event-busy-loop from writing long lines to /run/avahi-daemon/socket",
+            "uri": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-3468",
+            "severity": "MEDIUM",
+            "attributes": [
+                {
+                    "key": "package_version",
+                    "value": "0.6.32~rc+dfsg-1ubuntu2.3"
+                },
+                {
+                    "key": "package_name",
+                    "value": "avahi"
+                }
+            ]
+        }
+    ],
+    "binutils": [
+        {
+            "name": "CVE-2019-14444",
+            "description": "apply_relocations in readelf.c in GNU Binutils 2.32 contains an integer overflow that allows attackers to trigger a write access violation (in byte_put_little_endian function in elfcomm.c) via an ELF file, as demonstrated by readelf.",
+            "uri": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-14444",
+            "severity": "MEDIUM",
+            "attributes": [
+                {
+                    "key": "package_version",
+                    "value": "2.26.1-1ubuntu1~16.04.8"
+                },
+                {
+                    "key": "package_name",
+                    "value": "binutils"
+                },
+                {
+                    "key": "CVSS2_VECTOR",
+                    "value": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+                },
+                {
+                    "key": "CVSS2_SCORE",
+                    "value": "4.3"
+                }
+            ]
+        },
+        {
+            "name": "CVE-2019-17451",
+            "description": "An issue was discovered in the Binary File Descriptor (BFD) library (aka libbfd), as distributed in GNU Binutils 2.32. It is an integer overflow leading to a SEGV in _bfd_dwarf2_find_nearest_line in dwarf2.c, as demonstrated by nm.",
+            "uri": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-17451",
+            "severity": "MEDIUM",
+            "attributes": [
+                {
+                    "key": "package_version",
+                    "value": "2.26.1-1ubuntu1~16.04.8"
+                },
+                {
+                    "key": "package_name",
+                    "value": "binutils"
+                },
+                {
+                    "key": "CVSS2_VECTOR",
+                    "value": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+                },
+                {
+                    "key": "CVSS2_SCORE",
+                    "value": "4.3"
+                }
+            ]
+        },
+        {
+            "name": "CVE-2019-14250",
+            "description": "An issue was discovered in GNU libiberty, as distributed in GNU Binutils 2.32. simple_object_elf_match in simple-object-elf.c does not check for a zero shstrndx value, leading to an integer overflow and resultant heap-based buffer overflow.",
+            "uri": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-14250",
+            "severity": "MEDIUM",
+            "attributes": [
+                {
+                    "key": "package_version",
+                    "value": "2.26.1-1ubuntu1~16.04.8"
+                },
+                {
+                    "key": "package_name",
+                    "value": "binutils"
+                },
+                {
+                    "key": "CVSS2_VECTOR",
+                    "value": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+                },
+                {
+                    "key": "CVSS2_SCORE",
+                    "value": "4.3"
+                }
+            ]
+        }
+    ],
+    "game-music-emu": [
+        {
+            "name": "CVE-2017-17446",
+            "description": "The Mem_File_Reader::read_avail function in Data_Reader.cpp in the Game_Music_Emu library (aka game-music-emu) 0.6.1 does not ensure a non-negative size, which allows remote attackers to cause a denial of service (application crash) via a crafted file.",
+            "uri": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-17446",
+            "severity": "MEDIUM",
+            "attributes": [
+                {
+                    "key": "package_version",
+                    "value": "0.6.0-3ubuntu0.16.04.1"
+                },
+                {
+                    "key": "package_name",
+                    "value": "game-music-emu"
+                },
+                {
+                    "key": "CVSS2_VECTOR",
+                    "value": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+                },
+                {
+                    "key": "CVSS2_SCORE",
+                    "value": "4.3"
+                }
+            ]
+        }
+    ],
+    "gcc-5": [
+        {
+            "name": "CVE-2020-13844",
+            "description": "Arm Armv8-A core implementations utilizing speculative execution past unconditional changes in control flow may allow unauthorized disclosure of information to an attacker with local user access via a side-channel analysis, aka \"straight-line speculation.\"",
+            "uri": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-13844",
+            "severity": "MEDIUM",
+            "attributes": [
+                {
+                    "key": "package_version",
+                    "value": "5.4.0-6ubuntu1~16.04.12"
+                },
+                {
+                    "key": "package_name",
+                    "value": "gcc-5"
+                },
+                {
+                    "key": "CVSS2_VECTOR",
+                    "value": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
+                },
+                {
+                    "key": "CVSS2_SCORE",
+                    "value": "2.1"
+                }
+            ]
+        }
+    ],
+    "gcc-defaults": [
+        {
+            "name": "CVE-2020-13844",
+            "description": "Arm Armv8-A core implementations utilizing speculative execution past unconditional changes in control flow may allow unauthorized disclosure of information to an attacker with local user access via a side-channel analysis, aka \"straight-line speculation.\"",
+            "uri": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-13844",
+            "severity": "MEDIUM",
+            "attributes": [
+                {
+                    "key": "package_version",
+                    "value": "1.150ubuntu1"
+                },
+                {
+                    "key": "package_name",
+                    "value": "gcc-defaults"
+                },
+                {
+                    "key": "CVSS2_VECTOR",
+                    "value": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
+                },
+                {
+                    "key": "CVSS2_SCORE",
+                    "value": "2.1"
+                }
+            ]
+        }
+    ],
+    "gccgo-6": [
+        {
+            "name": "CVE-2020-13844",
+            "description": "Arm Armv8-A core implementations utilizing speculative execution past unconditional changes in control flow may allow unauthorized disclosure of information to an attacker with local user access via a side-channel analysis, aka \"straight-line speculation.\"",
+            "uri": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-13844",
+            "severity": "MEDIUM",
+            "attributes": [
+                {
+                    "key": "package_version",
+                    "value": "6.0.1-0ubuntu1"
+                },
+                {
+                    "key": "package_name",
+                    "value": "gccgo-6"
+                },
+                {
+                    "key": "CVSS2_VECTOR",
+                    "value": "AV:L/AC:L/Au:N/C:P/I:N/A:N"
+                },
+                {
+                    "key": "CVSS2_SCORE",
+                    "value": "2.1"
+                }
+            ]
+        }
+    ],
+    "imagemagick": [
+        {
+            "name": "CVE-2021-20313",
+            "description": "[Cipher leak when the calculating signatures in TransformSignatureof MagickCore/signature.c]",
+            "uri": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-20313",
+            "severity": "MEDIUM",
+            "attributes": [
+                {
+                    "key": "package_version",
+                    "value": "8:6.8.9.9-7ubuntu5.16"
+                },
+                {
+                    "key": "package_name",
+                    "value": "imagemagick"
+                }
+            ]
+        },
+        {
+            "name": "CVE-2020-25664",
+            "description": "In WriteOnePNGImage() of the PNG coder at coders/png.c, an improper call to AcquireVirtualMemory() and memset() allows for an out-of-bounds write later when PopShortPixel() from MagickCore/quantum-private.h is called. The patch fixes the calls by adding 256 to rowbytes. An attacker who is able to supply a specially crafted image could affect availability with a low impact to data integrity. This flaw affects ImageMagick versions prior to 6.9.10-68 and 7.0.8-68.",
+            "uri": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-25664",
+            "severity": "MEDIUM",
+            "attributes": [
+                {
+                    "key": "package_version",
+                    "value": "8:6.8.9.9-7ubuntu5.16"
+                },
+                {
+                    "key": "package_name",
+                    "value": "imagemagick"
+                },
+                {
+                    "key": "CVSS2_VECTOR",
+                    "value": "AV:N/AC:M/Au:N/C:N/I:P/A:P"
+                },
+                {
+                    "key": "CVSS2_SCORE",
+                    "value": "5.8"
+                }
+            ]
+        },
+        {
+            "name": "CVE-2020-27752",
+            "description": "A flaw was found in ImageMagick in MagickCore/quantum-private.h. An attacker who submits a crafted file that is processed by ImageMagick could trigger a heap buffer overflow. This would most likely lead to an impact to application availability, but could potentially lead to an impact to data integrity as well. This flaw affects ImageMagick versions prior to 7.0.9-0.",
+            "uri": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-27752",
+            "severity": "MEDIUM",
+            "attributes": [
+                {
+                    "key": "package_version",
+                    "value": "8:6.8.9.9-7ubuntu5.16"
+                },
+                {
+                    "key": "package_name",
+                    "value": "imagemagick"
+                },
+                {
+                    "key": "CVSS2_VECTOR",
+                    "value": "AV:N/AC:M/Au:N/C:N/I:P/A:P"
+                },
+                {
+                    "key": "CVSS2_SCORE",
+                    "value": "5.8"
+                }
+            ]
+        },
+        {
+            "name": "CVE-2021-20312",
+            "description": "[Integer overflow in WriteTHUMBNAILImage of coders/thumbnail.c]",
+            "uri": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-20312",
+            "severity": "MEDIUM",
+            "attributes": [
+                {
+                    "key": "package_version",
+                    "value": "8:6.8.9.9-7ubuntu5.16"
+                },
+                {
+                    "key": "package_name",
+                    "value": "imagemagick"
+                }
+            ]
+        }
+    ],
+    "krb5": [
+        {
+            "name": "CVE-2018-20217",
+            "description": "A Reachable Assertion issue was discovered in the KDC in MIT Kerberos 5 (aka krb5) before 1.17. If an attacker can obtain a krbtgt ticket using an older encryption type (single-DES, triple-DES, or RC4), the attacker can crash the KDC by making an S4U2Self request.",
+            "uri": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20217",
+            "severity": "MEDIUM",
+            "attributes": [
+                {
+                    "key": "package_version",
+                    "value": "1.13.2+dfsg-5ubuntu2.2"
+                },
+                {
+                    "key": "package_name",
+                    "value": "krb5"
+                },
+                {
+                    "key": "CVSS2_VECTOR",
+                    "value": "AV:N/AC:M/Au:S/C:N/I:N/A:P"
+                },
+                {
+                    "key": "CVSS2_SCORE",
+                    "value": "3.5"
+                }
+            ]
+        }
+    ],
+    "libxml2": [
+        {
+            "name": "CVE-2020-27920",
+            "description": "A use after free issue was addressed with improved memory management. This issue is fixed in macOS Big Sur 11.1, Security Update 2020-001 Catalina, Security Update 2020-007 Mojave, macOS Big Sur 11.0.1, iOS 14.2 and iPadOS 14.2, watchOS 7.1, tvOS 14.2. Processing maliciously crafted web content may lead to code execution.",
+            "uri": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-27920",
+            "severity": "MEDIUM",
+            "attributes": [
+                {
+                    "key": "package_version",
+                    "value": "2.9.3+dfsg1-1ubuntu0.7"
+                },
+                {
+                    "key": "package_name",
+                    "value": "libxml2"
+                },
+                {
+                    "key": "CVSS2_VECTOR",
+                    "value": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+                },
+                {
+                    "key": "CVSS2_SCORE",
+                    "value": "6.8"
+                }
+            ]
+        },
+        {
+            "name": "CVE-2020-9926",
+            "description": "A use after free issue was addressed with improved memory management. This issue is fixed in iOS 13.6 and iPadOS 13.6, tvOS 13.4.8, watchOS 6.2.8, iCloud for Windows 7.20, macOS Catalina 10.15.6, Security Update 2020-004 Mojave, Security Update 2020-004 High Sierra. Processing maliciously crafted XML may lead to an unexpected application termination or arbitrary code execution.",
+            "uri": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-9926",
+            "severity": "MEDIUM",
+            "attributes": [
+                {
+                    "key": "package_version",
+                    "value": "2.9.3+dfsg1-1ubuntu0.7"
+                },
+                {
+                    "key": "package_name",
+                    "value": "libxml2"
+                },
+                {
+                    "key": "CVSS2_VECTOR",
+                    "value": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+                },
+                {
+                    "key": "CVSS2_SCORE",
+                    "value": "6.8"
+                }
+            ]
+        }
+    ],
+    "libzstd": [
+        {
+            "name": "CVE-2019-11922",
+            "description": "A race condition in the one-pass compression functions of Zstandard prior to version 1.3.8 could allow an attacker to write bytes out of bounds if an output buffer smaller than the recommended size was used.",
+            "uri": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-11922",
+            "severity": "MEDIUM",
+            "attributes": [
+                {
+                    "key": "package_version",
+                    "value": "1.3.1+dfsg-1~ubuntu0.16.04.1"
+                },
+                {
+                    "key": "package_name",
+                    "value": "libzstd"
+                },
+                {
+                    "key": "CVSS2_VECTOR",
+                    "value": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+                },
+                {
+                    "key": "CVSS2_SCORE",
+                    "value": "6.8"
+                }
+            ]
+        }
+    ],
+    "opencv": [
+        {
+            "name": "CVE-2019-14492",
+            "description": "An issue was discovered in OpenCV before 3.4.7 and 4.x before 4.1.1. There is an out of bounds read/write in the function HaarEvaluator::OptFeature::calc in modules/objdetect/src/cascadedetect.hpp, which leads to denial of service.",
+            "uri": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-14492",
+            "severity": "MEDIUM",
+            "attributes": [
+                {
+                    "key": "package_version",
+                    "value": "2.4.9.1+dfsg-1.5ubuntu1.1"
+                },
+                {
+                    "key": "package_name",
+                    "value": "opencv"
+                },
+                {
+                    "key": "CVSS2_VECTOR",
+                    "value": "AV:N/AC:L/Au:N/C:N/I:N/A:P"
+                },
+                {
+                    "key": "CVSS2_SCORE",
+                    "value": "5"
+                }
+            ]
+        },
+        {
+            "name": "CVE-2019-14491",
+            "description": "An issue was discovered in OpenCV before 3.4.7 and 4.x before 4.1.1. There is an out of bounds read in the function cv::predictOrdered<cv::HaarEvaluator> in modules/objdetect/src/cascadedetect.hpp, which leads to denial of service.",
+            "uri": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-14491",
+            "severity": "MEDIUM",
+            "attributes": [
+                {
+                    "key": "package_version",
+                    "value": "2.4.9.1+dfsg-1.5ubuntu1.1"
+                },
+                {
+                    "key": "package_name",
+                    "value": "opencv"
+                },
+                {
+                    "key": "CVSS2_VECTOR",
+                    "value": "AV:N/AC:L/Au:N/C:P/I:N/A:P"
+                },
+                {
+                    "key": "CVSS2_SCORE",
+                    "value": "6.4"
+                }
+            ]
+        },
+        {
+            "name": "CVE-2019-9423",
+            "description": "In opencv calls that use libpng, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege with no additional execution privileges required. User interaction is not required for exploitation. Product: AndroidVersions: Android-10Android ID: A-110986616",
+            "uri": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-9423",
+            "severity": "MEDIUM",
+            "attributes": [
+                {
+                    "key": "package_version",
+                    "value": "2.4.9.1+dfsg-1.5ubuntu1.1"
+                },
+                {
+                    "key": "package_name",
+                    "value": "opencv"
+                },
+                {
+                    "key": "CVSS2_VECTOR",
+                    "value": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
+                },
+                {
+                    "key": "CVSS2_SCORE",
+                    "value": "4.6"
+                }
+            ]
+        }
+    ],
+    "openjpeg": [
+        {
+            "name": "CVE-2015-1273",
+            "description": "Heap-based buffer overflow in j2k.c in OpenJPEG before r3002, as used in PDFium in Google Chrome before 44.0.2403.89, allows remote attackers to cause a denial of service or possibly have unspecified other impact via invalid JPEG2000 data in a PDF document.",
+            "uri": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2015-1273",
+            "severity": "MEDIUM",
+            "attributes": [
+                {
+                    "key": "package_version",
+                    "value": "1:1.5.2-3.1"
+                },
+                {
+                    "key": "package_name",
+                    "value": "openjpeg"
+                },
+                {
+                    "key": "CVSS2_VECTOR",
+                    "value": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+                },
+                {
+                    "key": "CVSS2_SCORE",
+                    "value": "6.8"
+                }
+            ]
+        }
+    ],
+    "sqlite3": [
+        {
+            "name": "CVE-2020-9794",
+            "description": "An out-of-bounds read was addressed with improved bounds checking. This issue is fixed in iOS 13.5 and iPadOS 13.5, macOS Catalina 10.15.5, tvOS 13.4.5, watchOS 6.2.5, iTunes 12.10.7 for Windows, iCloud for Windows 11.2, iCloud for Windows 7.19. A malicious application may cause a denial of service or potentially disclose memory contents.",
+            "uri": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-9794",
+            "severity": "MEDIUM",
+            "attributes": [
+                {
+                    "key": "package_version",
+                    "value": "3.11.0-1ubuntu1.5"
+                },
+                {
+                    "key": "package_name",
+                    "value": "sqlite3"
+                },
+                {
+                    "key": "CVSS2_VECTOR",
+                    "value": "AV:N/AC:M/Au:N/C:P/I:N/A:P"
+                },
+                {
+                    "key": "CVSS2_SCORE",
+                    "value": "5.8"
+                }
+            ]
+        }
+    ],
+    "systemd": [
+        {
+            "name": "CVE-2018-20839",
+            "description": "systemd 242 changes the VT1 mode upon a logout, which allows attackers to read cleartext passwords in certain circumstances, such as watching a shutdown, or using Ctrl-Alt-F1 and Ctrl-Alt-F2. This occurs because the KDGKBMODE (aka current keyboard mode) check is mishandled.",
+            "uri": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839",
+            "severity": "MEDIUM",
+            "attributes": [
+                {
+                    "key": "package_version",
+                    "value": "229-4ubuntu21.31"
+                },
+                {
+                    "key": "package_name",
+                    "value": "systemd"
+                },
+                {
+                    "key": "CVSS2_VECTOR",
+                    "value": "AV:N/AC:L/Au:N/C:P/I:N/A:N"
+                },
+                {
+                    "key": "CVSS2_SCORE",
+                    "value": "5"
+                }
+            ]
+        }
+    ],
+    "x265": [
+        {
+            "name": "CVE-2017-13135",
+            "description": "A NULL Pointer Dereference exists in VideoLAN x265, as used in libbpg 0.9.7 and other products, because the CUData::initialize function in common/cudata.cpp mishandles memory-allocation failure.",
+            "uri": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-13135",
+            "severity": "MEDIUM",
+            "attributes": [
+                {
+                    "key": "package_version",
+                    "value": "1.9-3"
+                },
+                {
+                    "key": "package_name",
+                    "value": "x265"
+                },
+                {
+                    "key": "CVSS2_VECTOR",
+                    "value": "AV:N/AC:M/Au:N/C:P/I:P/A:P"
+                },
+                {
+                    "key": "CVSS2_SCORE",
+                    "value": "6.8"
+                }
+            ]
+        },
+        {
+            "name": "CVE-2017-8906",
+            "description": "An integer underflow vulnerability exists in pixel-a.asm, the x86 assembly code for planeClipAndMax() in MulticoreWare x265 through 2.4, as used by the x265_encoder_encode dependency in libbpg and other products. A small picture can cause an integer underflow, which leads to a Denial of Service in the process of encoding.",
+            "uri": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-8906",
+            "severity": "MEDIUM",
+            "attributes": [
+                {
+                    "key": "package_version",
+                    "value": "1.9-3"
+                },
+                {
+                    "key": "package_name",
+                    "value": "x265"
+                },
+                {
+                    "key": "CVSS2_VECTOR",
+                    "value": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+                },
+                {
+                    "key": "CVSS2_SCORE",
+                    "value": "4.3"
+                }
+            ]
+        }
+    ]
+}
